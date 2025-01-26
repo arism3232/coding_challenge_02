@@ -37,6 +37,9 @@ let order = {
     customerName: "Namu",
     amount: 500,
     calculateTax: function() {
-        return this.amount * 0.10; //10% tax
+        const taxRate = 0.10; // Tax rate
+        return this.amount * taxRate;
     }
-};
+}; // Object of Order
+console.log(order); // Print object of order
+console.log(order.calculateTax()); // Print tax amount
