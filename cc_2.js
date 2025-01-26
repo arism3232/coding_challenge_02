@@ -10,3 +10,14 @@ scores[1] = 92; // Updating the second score
 let averageScore = scores.reduce((sum, score) => sum + score, 0) / scores.length;
 console.log("Updated scores:", scores);
 console.log("Average score:", averageScore);
+
+// Task 3 - Working with Objects
+let employee = {
+    name: "Shin Ryujin",
+    age: 23,
+    department: "Customer Service",
+    isActive: true
+};
+employee.department = "Sales"; // Updating department
+employee.position = "Team Lead"; // Adding new property
+console.log("Updated employee record:", employee);
