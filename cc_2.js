@@ -21,3 +21,12 @@ let employee = {
 employee.department = "Sales"; // Updating department
 employee.position = "Team Lead"; // Adding new property
 console.log("Updated employee record:", employee);
+
+// Task 4 - Array of Objects
+let customers = [
+    { name: "Hwang Yeji", email: "yeji@example.com", purchaseAmount: 300},
+    { name: "Shin Yuna", email: "yuna@example.com", purchaseAmount: 350},
+    { name: "Lee Chaeryeong", email: "chaeryeong@example.com", purchaseAmount: 400}  
+];
+customers.push({ name: "Choi Jisu", email: "jisu@example.com", purchaseAmount: 450});
+console.log("Customer list:", customers);
