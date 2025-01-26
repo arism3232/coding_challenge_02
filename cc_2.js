@@ -3,3 +3,10 @@ let products = ["Lip Balm", "Hand Cream", "Mints", "Gum", "Hand Sanitizer"]; // 
 products.push("Floss"); // Adding new product at the end of array
 products.pop(); // Removing last product from the end of array
 console.log("Updated product list:", products);
+
+// Task 2 - Accessing and Modifying Arrays
+let scores = [100, 99, 98, 97, 96]; // Array of scores
+scores[1] = 92; // Updating the second score
+let averageScore = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+console.log("Updated scores:", scores);
+console.log("Average score:", averageScore);
